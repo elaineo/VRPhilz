@@ -51,9 +51,6 @@ public class Teleport : MonoBehaviour {
 	{
 		if(showText)
 		{
-			// If you've clicked the object, show this button
-			if(GUI.Button(new Rect(100,100,100,20), "I love Philz"))
-				// If you click this button, set showText to false
 				showText = false;
 		}
 	}
