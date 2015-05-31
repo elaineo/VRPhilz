@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>EDCD195E-330F-4BF6-988F-0F5CFB924183</string>
+	<string>08FD5C5D-7DE8-43E6-8612-6DD54B1A263E</string>
 	<key>IDESourceControlProjectName</key>
 	<string>Unity-iPhone</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>58C54B3482B22D46A49DFD7B795ECB8B2B445C8A</key>
-		<string>https://github.com/elaineo/VirtualPhilz.git</string>
+		<key>FD538F105DA476566ABBF3BBD72AF0D4A1978562</key>
+		<string>https://github.com/elaineo/VRPhilz.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>philztest/Unity-iPhone.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>58C54B3482B22D46A49DFD7B795ECB8B2B445C8A</key>
+		<key>FD538F105DA476566ABBF3BBD72AF0D4A1978562</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/elaineo/VirtualPhilz.git</string>
+	<string>https://github.com/elaineo/VRPhilz.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>58C54B3482B22D46A49DFD7B795ECB8B2B445C8A</string>
+	<string>FD538F105DA476566ABBF3BBD72AF0D4A1978562</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>58C54B3482B22D46A49DFD7B795ECB8B2B445C8A</string>
+			<string>FD538F105DA476566ABBF3BBD72AF0D4A1978562</string>
 			<key>IDESourceControlWCCName</key>
 			<string>philz</string>
 		</dict>

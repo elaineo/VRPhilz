@@ -7,32 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01B54F35921889328D6D047D /* libionlodepnglib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 90E64768BD5BC96EB9F4595A /* libionlodepnglib.a */; };
-		050A4C46862CDB663BEA1C3C /* libiPhone-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 477248CAB1A7B4B6963F9B65 /* libiPhone-lib.a */; };
-		0644473996A4C7BDA228506F /* libNimbusModels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0CA9418E82556823282D6B89 /* libNimbusModels.a */; };
+		03F046B9BDAD6A3D962216F4 /* Mono.Security.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = A85548F49753EED06EADBED6 /* Mono.Security.dll.s */; };
 		08B24F76137BFDFA00FBA309 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08B24F75137BFDFA00FBA309 /* iAd.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		0EFF4E5A93E2873258AB0FC0 /* libionport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D5A34A2C849A7A87FEFDC936 /* libionport.a */; };
-		150D4AB4903A6AAC7D095AEF /* libgflags.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46144CBC81047FE20361DA49 /* libgflags.a */; };
-		163342FA9090DBA3F1F15F77 /* libcardboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E34607A3236962E3F1C1EC /* libcardboard.a */; };
+		0D1A45F8BD119D1D260DCB39 /* Assembly-CSharp.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = BE8E4974921C971A814D746F /* Assembly-CSharp.dll.s */; };
+		0E7E4A09B76F192351EF9859 /* libiontext.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 18F94D4188687AD957201457 /* libiontext.a */; };
 		1859EA9B19214E7B0022C3D3 /* MetalHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 1859EA9A19214E7B0022C3D3 /* MetalHelper.mm */; };
-		1CFE49EEB356762F6AB8596C /* libGoogleKitHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CDC4CC59C0B64E21AB36F5C /* libGoogleKitHUD.a */; };
+		19A648E19650D9D5466ACD4C /* libionbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 83AE457A993F9AE4841A27D9 /* libionbase.a */; };
 		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
-		201640EB9AD3F0589D60343D /* libsensors.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8446BD9EC3D02624DCA02A /* libsensors.a */; };
-		201D4D2984D1D9F6C3E50F99 /* libapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD704E5EBE1C72D9F4D8784C /* libapi.a */; };
-		256D466E96B4413BE1AADBB0 /* libsoftware.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4824DFEBCA2EA8D0554901C /* libsoftware.a */; };
-		27204C6BA716CB1182E42CB2 /* libionfreetype2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5B3641108234C0824B9AF2E1 /* libionfreetype2.a */; };
-		29654213B31980F4B47E0C8D /* libionremote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6E746B5BC894DB3CACAAE10 /* libionremote.a */; };
-		2EE84FC080B5837A6FE052B8 /* libionwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ECCE4584AFB7EC794DCED293 /* libionwebp.a */; };
-		38FD477CABD218573DB057B0 /* libdatatypes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 31C84D148312C785739CE1A8 /* libdatatypes.a */; };
-		3AB432C31B1AA99400CB2A5D /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3AB432C21B1AA99400CB2A5D /* resources.bundle */; };
-		3AB432C51B1AA9BF00CB2A5D /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB432C41B1AA9BF00CB2A5D /* CoreText.framework */; };
-		413544ABBB4A3E64C164AAF0 /* libionprofile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AE84E1BAA15D77FEA7E49B8 /* libionprofile.a */; };
-		469B4A608A765B215C3C2C3D /* LaunchScreenImage-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 9EF94F3C970E766E98511A45 /* LaunchScreenImage-Landscape.png */; };
-		47364F9A82014C0779A3248A /* libionportgfx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6DA34548A056A06A811A5F3F /* libionportgfx.a */; };
-		52C74597A30AAA3204A1016B /* libiontext.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3B3C47A6B9106F43794FBF83 /* libiontext.a */; };
-		5404487CBE0E777E4D95B3CB /* libionimagecompression.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8694834B8DDCECEDC87A490 /* libionimagecompression.a */; };
-		542341A4ABB9FEA2E9B79657 /* libionmongoose.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6281497194B661781C19B861 /* libionmongoose.a */; };
-		54A045E78369356076754052 /* librecorder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A59F4DFEACF31292C92BF17D /* librecorder.a */; };
+		203F48868CF84251FA8E772A /* libevent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 95BD4C1AACE1BFE92EF8ADC1 /* libevent.a */; };
+		20CD4518A5E372AC4A5203F7 /* libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A3F46E3B4D47BE7F23DCCA8 /* libbase.a */; };
+		22294ED29639EAE7968F3376 /* libionportgfx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AA354186B7AD8229DA7761FA /* libionportgfx.a */; };
+		23E44E7D840801BD5C509211 /* libdatatypes.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 32D8492EAFF0EC0A2CCE4F44 /* libdatatypes.a */; };
+		29E9429A9D7DCE6277D4C1CE /* libcomposite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D1E453F81436239FE441DB7 /* libcomposite.a */; };
+		30994019A3BA2803AE25DB64 /* libplatform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 75784DD594A7D5F5D8A727A1 /* libplatform.a */; };
+		30D040D3BDCAB6CA4A1F4400 /* libvrunity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 40974AC5AD1DD83C2BF6E7A8 /* libvrunity.a */; };
+		30D3492EA86A925B07C1449C /* libGoogleKitCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C55041C4976622FD133EEEE6 /* libGoogleKitCore.a */; };
+		30DC443AA09D39442AC241CD /* libprotos_lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E10F4185AC510A2335B733B2 /* libprotos_lib.a */; };
+		35754ACA8A4C7268855CB978 /* libionzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA864206812F36FA89985C5E /* libionzlib.a */; };
+		3A1648E2A95772B6245725EE /* libionlodepnglib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F3F49E295201C9F1BDF9A10 /* libionlodepnglib.a */; };
+		3A2494041B1B12CE000E1CE3 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A2494031B1B12CE000E1CE3 /* CoreText.framework */; };
+		3A2494061B1B12E1000E1CE3 /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3A2494051B1B12E1000E1CE3 /* resources.bundle */; };
+		3D3A4BC782EE3ED748BC6847 /* libGoogleKitHUD.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 38B343DDBEF20F29E4C86DE7 /* libGoogleKitHUD.a */; };
+		3EC44EF8907C3B1A23C87989 /* libionstblib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 28734A52A426B18E088BE372 /* libionstblib.a */; };
+		413E4E15A40A0C2B74B40A12 /* LaunchScreenImage-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C5C4BDA8FD36F875A006904 /* LaunchScreenImage-Portrait.png */; };
+		451D4932A97D94782F0E2BE9 /* LaunchScreenImage-Landscape.png in Resources */ = {isa = PBXBuildFile; fileRef = 601D44FAAB170EC0EEEBCD6B /* LaunchScreenImage-Landscape.png */; };
+		460C43D18A9CCCD53F10B0A9 /* libionimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4397453CA20EAF8BD74650A2 /* libionimage.a */; };
+		4A0B4705B9829F77F6A5B877 /* libQuantumCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 481343D59E466AC5D2C3C504 /* libQuantumCore.a */; };
+		4C794B8BA7F1E1A8B0C6EF41 /* libvr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 85D240FDAC0819CDF22F8F5D /* libvr.a */; };
+		4DD64CD7BEA5AE971E5790BE /* libgflags.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD434055B8B0BAEAA78F5E8D /* libgflags.a */; };
+		5103452E899EC8EF0FF96804 /* libionanalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B10472DB7417EAB570898EA /* libionanalytics.a */; };
+		52724F3E850F3DA0AD0E6EB8 /* libionwebp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1C246C5B18A908E3A3EFEC5 /* libionwebp.a */; };
+		551F4F40B4DF798F4DEA971D /* libsoftware.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 33764075A77AD73D24624C8C /* libsoftware.a */; };
 		5623C57617FDCB0800090B9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
 		5623C57717FDCB0800090B9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B5C100E5ED4C100C7819F /* UIKit.framework */; };
 		5623C57D17FDCB0900090B9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5623C57B17FDCB0900090B9E /* InfoPlist.strings */; };
@@ -45,32 +50,32 @@
 		56C56C9817D6015200616839 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56C56C9717D6015100616839 /* Images.xcassets */; };
 		56DBF99D15E3CDC9007A4A8D /* iPhone_Sensors.mm in Sources */ = {isa = PBXBuildFile; fileRef = 56DBF99C15E3CDC9007A4A8D /* iPhone_Sensors.mm */; };
 		56FD43960ED4745200FE3770 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 56FD43950ED4745200FE3770 /* CFNetwork.framework */; };
-		5B104E82B366686F30BADCA1 /* libionopenctm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D90749D199BD8C7971D9D940 /* libionopenctm.a */; };
-		653444B994CFD8613456ED0D /* libport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C90430CB241D3D8612C4D9C /* libport.a */; };
-		67DF483D81CF80F17698830C /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F98B4A0ABFB4D63AAB4D1B94 /* libProtocolBuffers.a */; };
-		6A0741A4B9D87E2486516BD3 /* libcomposite.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92114FBFBE5345237F5D1B19 /* libcomposite.a */; };
-		6EF241B48D1B0224F3BDE524 /* libcardboard_protos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E5E74E13927DA2E339F8DBA9 /* libcardboard_protos.a */; };
-		6FC74A20BBE6AC571A94EFEF /* libionjsoncpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE9F496AA9DBFB916E4E1D4E /* libionjsoncpp.a */; };
-		70E147B397C59EF4F0D119F4 /* libprotos_lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FFD4590A7B4966A0AE8C2EA /* libprotos_lib.a */; };
-		73424C82905D9CC14D971CAC /* CardboardAppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7B5747B993553BCA7B24548E /* CardboardAppController.mm */; };
-		785B4219BB2289CE3E3737F5 /* UnityEngine.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = 692A4164B2142B1951E83D32 /* UnityEngine.dll.s */; };
-		7B9E4A7D9625510CC5ACF022 /* System.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = CEBF4FBAA82A6DCED427647E /* System.dll.s */; };
-		7CB34558AF78B2A1E9C218F0 /* libionmath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5674BB79034380B6D7F9420 /* libionmath.a */; };
-		7D4D468FB03B02748DBB9DD0 /* libvrunity.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0806422AA74DAA437A436224 /* libvrunity.a */; };
+		576E4AE5AB0ED1F5AAA09552 /* libdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1F24DEFBFE1FF631ABE237C /* libdevice.a */; };
+		5CDD42A8982FC07E8B435AD1 /* libionopenctm.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B6460E8ED0F70888FF97B7 /* libionopenctm.a */; };
+		5DA94093ADAF9C97BE949F0F /* libcardboard_protos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F54849E19C6FD7F6F5ECE7DD /* libcardboard_protos.a */; };
+		5DB6410F8E2F76BBF4E8C3B9 /* libionmath.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09304852AA8BA50F16E5D011 /* libionmath.a */; };
+		5DD84ACEBAEFCC6FA0BAF71A /* libiongfx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 52884349A51E985124CF684E /* libiongfx.a */; };
+		60914D729CFC9C7DB5C49A48 /* libevent_internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEF4B9CA226BAD86DDBC445 /* libevent_internal.a */; };
+		677B4AEA9978D46172195490 /* liblogging_protos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 873F4D91A6319DA32DEA46E1 /* liblogging_protos.a */; };
+		68824177B44A02513B3014B9 /* UnityEngine.UI.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = EBA3446885D7ECBED8E72731 /* UnityEngine.UI.dll.s */; };
+		70D1494DA901013D5328A445 /* UnityProInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = F8F74C38925BC703CFF477E3 /* UnityProInterface.mm */; };
+		75B4478FA51DE5EF903D307D /* libionprofile.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 73374282BF68E25C810DEE86 /* libionprofile.a */; };
+		75DD4880B5ACB252199B8DC8 /* libionremote.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CB08446AB7B6696D969B4D7C /* libionremote.a */; };
+		79F14D69B654932ACC817333 /* libremote_assets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CF38466985936A1D71BEAF1F /* libremote_assets.a */; };
+		79F64AFF8CD51C1EBBF008DB /* System.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = 5D7E49B4B84102A708645DAD /* System.dll.s */; };
+		7B3A4C9FA29C8EAEC8069A41 /* libdevice_internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E914412D895F5D41BAEFED4C /* libdevice_internal.a */; };
 		7F36C11113C5C673007FBDD9 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F36C10E13C5C673007FBDD9 /* CoreMedia.framework */; };
 		7F36C11213C5C673007FBDD9 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F36C10F13C5C673007FBDD9 /* CoreVideo.framework */; };
 		7F36C11313C5C673007FBDD9 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F36C11013C5C673007FBDD9 /* AVFoundation.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
-		80334A248F7629B3F600609D /* libvr.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F8341FEA1D2E2C63BE91474 /* libvr.a */; };
-		812B4EDE815F2BF75255F56A /* libGoogleKitCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D4BD488F88963C470155E823 /* libGoogleKitCore.a */; };
+		7F3A40618EC5F6DA7CD169CF /* libiongfxutils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 813344D782AF535F1CD14C08 /* libiongfxutils.a */; };
 		830B5C110E5ED4C100C7819F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 830B5C100E5ED4C100C7819F /* UIKit.framework */; };
 		8358D1B80ED1CC3700E3A684 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8358D1B70ED1CC3700E3A684 /* AudioToolbox.framework */; };
 		83B256E20E62FEA000468741 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B256E10E62FEA000468741 /* OpenGLES.framework */; };
 		83B2570B0E62FF8A00468741 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B2570A0E62FF8A00468741 /* QuartzCore.framework */; };
 		83B2574C0E63022200468741 /* OpenAL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B2574B0E63022200468741 /* OpenAL.framework */; };
 		83B2574F0E63025400468741 /* libiconv.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 83B2574E0E63025400468741 /* libiconv.2.dylib */; };
-		873B48C89AC64CA4378089D9 /* CardboardView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 330F485891D0ACD1A98CFA72 /* CardboardView.mm */; };
-		88114C00A8D8E0798A0E1CC5 /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 054540699B6AFABCF0C865E1 /* resources.bundle */; };
-		89B44C8F9205BC08960F360D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 624047EC84F8C8FD5B74EDE7 /* LaunchScreen.xib */; };
+		83B341C58B4BE41DF9DD978A /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = F5C8472A975666EC5CCC3837 /* LaunchScreen.xib */; };
+		8450436485277738BFBD9F9C /* libNimbusModels.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 840F4D3CB2ED4D3EA02ABE7D /* libNimbusModels.a */; };
 		8A07E1061715A5AB000EDC6F /* iAD.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A07E1051715A5AB000EDC6F /* iAD.mm */; };
 		8A0FED491649699200E9727D /* EAGLContextHelper.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A0FED481649699200E9727D /* EAGLContextHelper.mm */; };
 		8A142DC61636943E00DD87CA /* Keyboard.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A142DC51636943E00DD87CA /* Keyboard.mm */; };
@@ -99,40 +104,35 @@
 		8ADCE38B19C87177006F04F6 /* CameraCapture.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8ADCE38A19C87177006F04F6 /* CameraCapture.mm */; };
 		8AF7755D1799329100341121 /* LifeCycleListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8A292A9817992CE100409BA4 /* LifeCycleListener.mm */; };
 		8AF7756017997D2700341121 /* AppDelegateListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = 8AF7755F17997D1300341121 /* AppDelegateListener.mm */; };
-		8BF54DEAAB1800E9743759E3 /* libplatform.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69A24A46893953F1872AFBB8 /* libplatform.a */; };
-		907D465BB78223095253F121 /* libiongfx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C66400A826A2979D3225EB8 /* libiongfx.a */; };
-		91784DCB963B22C4683206CB /* UnityProInterface.mm in Sources */ = {isa = PBXBuildFile; fileRef = 79C4475A8F2830448CE0A4EF /* UnityProInterface.mm */; };
-		945E43F8A6DDFD5BD542310A /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B10244C7A4DF6E914B42CF94 /* libprotobuf.a */; };
-		98BE4C339346601420A96ECA /* UnityEngine.UI.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = D6CB4067B744CA0FCBACB3A3 /* UnityEngine.UI.dll.s */; };
-		99A847EDABA5FA3B1F78C2EC /* libionzlib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96344F0782A715B4C552256C /* libionzlib.a */; };
-		9BA74EAC87A6432B94611F53 /* libionimage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 13984B85A76C8340826CFEB4 /* libionimage.a */; };
-		9D1B40528C6C5D7DB72CE17C /* libevent.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A2D047F092C79FC93DF5688C /* libevent.a */; };
-		A5194BA4B3831C8DF8D4120D /* liblogging_protos.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9E3E46539D74DB17E132DA5A /* liblogging_protos.a */; };
-		A58C49FAA7BF8D88D620C765 /* libremote_assets.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E1440869418C4BC21A2CEFF /* libremote_assets.a */; };
-		A7C74E579E6BAD6CB8FE2E7B /* libevent_internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3347B89D8A5F3989EC5838 /* libevent_internal.a */; };
-		A8F543B0BF21661A36A4F568 /* libNimbusCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 96A544FAA1B6DCD0166C0C1C /* libNimbusCore.a */; };
+		99854B8A8ED8D0BC3D219E3C /* libapi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DE947B788E6F60BDCD623F2 /* libapi.a */; };
+		9ADC43D6AC34E8E33957E847 /* libProtocolBuffers.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 88284D9494C0D1A9E9757DE8 /* libProtocolBuffers.a */; };
+		A10D49DFAE4E10CC584D7F20 /* libionport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29704A97871908A9528F0F30 /* libionport.a */; };
+		A24149878A551199EB3FA810 /* libNimbusAttributedLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 816646B6B2D0E4C389269A0F /* libNimbusAttributedLabel.a */; };
+		A5214542A0FBF1AF02BF8D81 /* libNimbusCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7556433B8D1D59999206309A /* libNimbusCore.a */; };
+		A91F4B9A897C2830525BD03A /* libiPhone-lib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 44F3493F82346A7C332DCEED /* libiPhone-lib.a */; };
 		AAC3E38D1A68945900F6174A /* RegisterFeatures.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AAC3E38B1A68945900F6174A /* RegisterFeatures.cpp */; };
 		AAFE69D219F187C200638316 /* UnityViewControllerListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = AAFE69D119F187C200638316 /* UnityViewControllerListener.mm */; };
-		AB31440C824ED9D82BB325DB /* libQuantumCore.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E84F474793FF799CF69EF18A /* libQuantumCore.a */; };
-		AC5647DD85ADAD6599084C18 /* libionanalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D82E4F51A07F6AE0249E47CF /* libionanalytics.a */; };
-		B1B446A8958D83B9813BE7AE /* mscorlib.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = C9B2400B8B165A004A598F1F /* mscorlib.dll.s */; };
-		C0BE48DA89940B8060FB3BEF /* libNimbusAttributedLabel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6D674C68A7F18A6F0051DC38 /* libNimbusAttributedLabel.a */; };
-		C472428BA29201D0E17D9466 /* libdevice_internal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 064848B883BB3639B0A69CF9 /* libdevice_internal.a */; };
-		D49C41038782A66E648A25FA /* System.Core.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = 78044C4B9631A98B8BCB426E /* System.Core.dll.s */; };
-		D5CF4D5F879EAF9DF1151F2F /* MPVideoPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = F70441C786A698DCE9A72DF5 /* MPVideoPlayer.mm */; };
-		D62441E7BBBA5210DE5E3F3D /* liblogging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 402E4DD4BAFC976EE9848A95 /* liblogging.a */; };
+		AE124DBABCC03C5EC8A98792 /* libsensors.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E76A4B6DAC94157DA0A6B877 /* libsensors.a */; };
+		B1DE40918C30D9A2C1E45283 /* libionmongoose.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 39CB458580CEDF9A03E480F5 /* libionmongoose.a */; };
+		B31740948EEF7B6D8F7AB6F2 /* System.Core.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = 4BA14E7D8A0861A44D420C4C /* System.Core.dll.s */; };
+		B5A44114AB0128E8B7550990 /* CardboardAppController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0FC54EF9838A473AD7583518 /* CardboardAppController.mm */; };
+		C4A84C62AB34D404F97417D5 /* resources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = B33F4AE18714C66E27C44CF2 /* resources.bundle */; };
+		CA1941E4A706C28CF6B351C1 /* libport.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DF584B21903D957CA07942FF /* libport.a */; };
+		CB3647359D96DC13E188C841 /* libionimagecompression.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6DA4050BC543CA89AD9336F /* libionimagecompression.a */; };
+		CBC64B48A32E23DB2B5CC605 /* CardboardView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 3F054B5EA070912CF1833EE8 /* CardboardView.mm */; };
+		D1904ABD98723B33A2916AC1 /* libcardboard.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 06ED4B04AA0D3A1B91F86857 /* libcardboard.a */; };
+		D7124E8BB913E1C77D61AA39 /* libprotobuf.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E264841B2AD077025BD04F5 /* libprotobuf.a */; };
 		D82DCFC30E8000A5005D6AD8 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = D82DCFBB0E8000A5005D6AD8 /* main.mm */; };
 		D8A1C7280E80637F000160D3 /* RegisterMonoModules.cpp in Sources */ = {isa = PBXBuildFile; fileRef = D8A1C7240E80637F000160D3 /* RegisterMonoModules.cpp */; };
-		D93D47E0A44C37F43E704FB9 /* Mono.Security.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = D3FD44C3A6EB4F1973ED5B5F /* Mono.Security.dll.s */; };
-		DD93429E8376B778F0315AEF /* libdevice.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45994E7F9FB8FAC285D0F0DC /* libdevice.a */; };
-		E3DD414C9814DC7CAB4B66FD /* libionstblib.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 60C04BF28B29C759CE105B5B /* libionstblib.a */; };
-		E713457D9AD1FF6DBBF4C6C9 /* Assembly-CSharp.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = 77AC4DAAB41F37CE3628DB29 /* Assembly-CSharp.dll.s */; };
-		E7404E529C71EED2E0EA1D39 /* libiongfxutils.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BDE44AA861B36EA9CA1AE06 /* libiongfxutils.a */; };
-		ED844B94AD013576EC397AAF /* libbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 562046FC89A8D03E20955FFE /* libbase.a */; };
-		EF1642A29BC3CAFB6EBCB132 /* libionbase.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BDB4DF2B72408BDCC4957EA /* libionbase.a */; };
-		F5EE4B48ADCFF06A00B72302 /* libtype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FB6547A584107466BD8472B1 /* libtype.a */; };
+		E58E448F81C2A67EFDBE29D2 /* libtype.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA55498AA61B6C908A7E1741 /* libtype.a */; };
+		E9EE47179CB04F99A802B37D /* libionjsoncpp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FA3408DABB8DD282F1A467F /* libionjsoncpp.a */; };
+		EC9A46CD995E8C25CC3BB10E /* librecorder.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 216C44BFA6513B85C6B3F693 /* librecorder.a */; };
+		ED054A48AAFE082BFDCED4E3 /* mscorlib.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = 2CCF4561800AFF6504DCCAEC /* mscorlib.dll.s */; };
+		EE3F4C83BC6993929EE0B7AF /* UnityEngine.dll.s in Sources */ = {isa = PBXBuildFile; fileRef = 840D4A7DBA63D9279BB8A62C /* UnityEngine.dll.s */; };
+		F09C4353A0B347AC056467D1 /* libionfreetype2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C634EA08AB729C337B52DEC /* libionfreetype2.a */; };
+		F42A45F4812D0F49322695FF /* MPVideoPlayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 958F4A05A1B42B5B5D18429F /* MPVideoPlayer.mm */; };
 		FC85CCBB16C3ED8000BAF7C7 /* CrashReporter.mm in Sources */ = {isa = PBXBuildFile; fileRef = FC85CCB916C3ED8000BAF7C7 /* CrashReporter.mm */; };
-		FFCF4426AFDED82877059BC6 /* LaunchScreenImage-Portrait.png in Resources */ = {isa = PBXBuildFile; fileRef = D1D447BF915F930B33894175 /* LaunchScreenImage-Portrait.png */; };
+		FF8547359752A83DFD5B5FD4 /* liblogging.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5AE24FAB8FA7F9CFA29330D1 /* liblogging.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -158,30 +158,38 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		054540699B6AFABCF0C865E1 /* resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = resources.bundle; path = Frameworks/Plugins/iOS/resources.bundle; sourceTree = SOURCE_ROOT; };
-		064848B883BB3639B0A69CF9 /* libdevice_internal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdevice_internal.a; path = Libraries/Plugins/iOS/libdevice_internal.a; sourceTree = SOURCE_ROOT; };
-		0806422AA74DAA437A436224 /* libvrunity.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvrunity.a; path = Libraries/Plugins/iOS/libvrunity.a; sourceTree = SOURCE_ROOT; };
+		06ED4B04AA0D3A1B91F86857 /* libcardboard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcardboard.a; path = Libraries/Plugins/iOS/libcardboard.a; sourceTree = SOURCE_ROOT; };
 		08B24F75137BFDFA00FBA309 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
-		0C8446BD9EC3D02624DCA02A /* libsensors.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsensors.a; path = Libraries/Plugins/iOS/libsensors.a; sourceTree = SOURCE_ROOT; };
-		0CA9418E82556823282D6B89 /* libNimbusModels.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNimbusModels.a; path = Libraries/Plugins/iOS/libNimbusModels.a; sourceTree = SOURCE_ROOT; };
-		13984B85A76C8340826CFEB4 /* libionimage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionimage.a; path = Libraries/Plugins/iOS/libionimage.a; sourceTree = SOURCE_ROOT; };
+		09304852AA8BA50F16E5D011 /* libionmath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionmath.a; path = Libraries/Plugins/iOS/libionmath.a; sourceTree = SOURCE_ROOT; };
+		0B10472DB7417EAB570898EA /* libionanalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionanalytics.a; path = Libraries/Plugins/iOS/libionanalytics.a; sourceTree = SOURCE_ROOT; };
+		0FC54EF9838A473AD7583518 /* CardboardAppController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CardboardAppController.mm; path = Libraries/Plugins/iOS/CardboardAppController.mm; sourceTree = SOURCE_ROOT; };
+		177B4EE081E2C4ACD34E4454 /* CardboardAppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardboardAppController.h; path = Libraries/Plugins/iOS/CardboardAppController.h; sourceTree = SOURCE_ROOT; };
 		1859EA9A19214E7B0022C3D3 /* MetalHelper.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MetalHelper.mm; sourceTree = "<group>"; };
-		1CDC4CC59C0B64E21AB36F5C /* libGoogleKitHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleKitHUD.a; path = Libraries/Plugins/iOS/libGoogleKitHUD.a; sourceTree = SOURCE_ROOT; };
+		18F94D4188687AD957201457 /* libiontext.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiontext.a; path = Libraries/Plugins/iOS/libiontext.a; sourceTree = SOURCE_ROOT; };
+		1A3F46E3B4D47BE7F23DCCA8 /* libbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbase.a; path = Libraries/Plugins/iOS/libbase.a; sourceTree = SOURCE_ROOT; };
 		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		1D6058910D05DD3D006BFB54 /* Unity-Target-New.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = "Unity-Target-New.app"; path = philz.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2C66400A826A2979D3225EB8 /* libiongfx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiongfx.a; path = Libraries/Plugins/iOS/libiongfx.a; sourceTree = SOURCE_ROOT; };
-		31C84D148312C785739CE1A8 /* libdatatypes.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdatatypes.a; path = Libraries/Plugins/iOS/libdatatypes.a; sourceTree = SOURCE_ROOT; };
-		330F485891D0ACD1A98CFA72 /* CardboardView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CardboardView.mm; path = Libraries/Plugins/iOS/CardboardView.mm; sourceTree = SOURCE_ROOT; };
-		3AB432C21B1AA99400CB2A5D /* resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = resources.bundle; path = ../Assets/Plugins/iOS/resources.bundle; sourceTree = "<group>"; };
-		3AB432C41B1AA9BF00CB2A5D /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
-		3B3C47A6B9106F43794FBF83 /* libiontext.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiontext.a; path = Libraries/Plugins/iOS/libiontext.a; sourceTree = SOURCE_ROOT; };
-		402E4DD4BAFC976EE9848A95 /* liblogging.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblogging.a; path = Libraries/Plugins/iOS/liblogging.a; sourceTree = SOURCE_ROOT; };
-		45994E7F9FB8FAC285D0F0DC /* libdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdevice.a; path = Libraries/Plugins/iOS/libdevice.a; sourceTree = SOURCE_ROOT; };
-		46144CBC81047FE20361DA49 /* libgflags.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgflags.a; path = Libraries/Plugins/iOS/libgflags.a; sourceTree = SOURCE_ROOT; };
-		477248CAB1A7B4B6963F9B65 /* libiPhone-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libiPhone-lib.a"; path = "Libraries/libiPhone-lib.a"; sourceTree = SOURCE_ROOT; };
-		4E1440869418C4BC21A2CEFF /* libremote_assets.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libremote_assets.a; path = Libraries/Plugins/iOS/libremote_assets.a; sourceTree = SOURCE_ROOT; };
-		4F8341FEA1D2E2C63BE91474 /* libvr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvr.a; path = Libraries/Plugins/iOS/libvr.a; sourceTree = SOURCE_ROOT; };
-		562046FC89A8D03E20955FFE /* libbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libbase.a; path = Libraries/Plugins/iOS/libbase.a; sourceTree = SOURCE_ROOT; };
+		1F3F49E295201C9F1BDF9A10 /* libionlodepnglib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionlodepnglib.a; path = Libraries/Plugins/iOS/libionlodepnglib.a; sourceTree = SOURCE_ROOT; };
+		216C44BFA6513B85C6B3F693 /* librecorder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librecorder.a; path = Libraries/Plugins/iOS/librecorder.a; sourceTree = SOURCE_ROOT; };
+		28734A52A426B18E088BE372 /* libionstblib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionstblib.a; path = Libraries/Plugins/iOS/libionstblib.a; sourceTree = SOURCE_ROOT; };
+		29704A97871908A9528F0F30 /* libionport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionport.a; path = Libraries/Plugins/iOS/libionport.a; sourceTree = SOURCE_ROOT; };
+		2C634EA08AB729C337B52DEC /* libionfreetype2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionfreetype2.a; path = Libraries/Plugins/iOS/libionfreetype2.a; sourceTree = SOURCE_ROOT; };
+		2CCF4561800AFF6504DCCAEC /* mscorlib.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = mscorlib.dll.s; path = Libraries/mscorlib.dll.s; sourceTree = SOURCE_ROOT; };
+		32D8492EAFF0EC0A2CCE4F44 /* libdatatypes.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdatatypes.a; path = Libraries/Plugins/iOS/libdatatypes.a; sourceTree = SOURCE_ROOT; };
+		33764075A77AD73D24624C8C /* libsoftware.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsoftware.a; path = Libraries/Plugins/iOS/libsoftware.a; sourceTree = SOURCE_ROOT; };
+		38B343DDBEF20F29E4C86DE7 /* libGoogleKitHUD.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleKitHUD.a; path = Libraries/Plugins/iOS/libGoogleKitHUD.a; sourceTree = SOURCE_ROOT; };
+		39CB458580CEDF9A03E480F5 /* libionmongoose.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionmongoose.a; path = Libraries/Plugins/iOS/libionmongoose.a; sourceTree = SOURCE_ROOT; };
+		3A2494031B1B12CE000E1CE3 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		3A2494051B1B12E1000E1CE3 /* resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = resources.bundle; path = ../Assets/Plugins/iOS/resources.bundle; sourceTree = "<group>"; };
+		3DE947B788E6F60BDCD623F2 /* libapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libapi.a; path = Libraries/Plugins/iOS/libapi.a; sourceTree = SOURCE_ROOT; };
+		3E264841B2AD077025BD04F5 /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = Libraries/Plugins/iOS/libprotobuf.a; sourceTree = SOURCE_ROOT; };
+		3F054B5EA070912CF1833EE8 /* CardboardView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CardboardView.mm; path = Libraries/Plugins/iOS/CardboardView.mm; sourceTree = SOURCE_ROOT; };
+		40974AC5AD1DD83C2BF6E7A8 /* libvrunity.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvrunity.a; path = Libraries/Plugins/iOS/libvrunity.a; sourceTree = SOURCE_ROOT; };
+		4397453CA20EAF8BD74650A2 /* libionimage.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionimage.a; path = Libraries/Plugins/iOS/libionimage.a; sourceTree = SOURCE_ROOT; };
+		44F3493F82346A7C332DCEED /* libiPhone-lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libiPhone-lib.a"; path = "Libraries/libiPhone-lib.a"; sourceTree = SOURCE_ROOT; };
+		481343D59E466AC5D2C3C504 /* libQuantumCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQuantumCore.a; path = Libraries/Plugins/iOS/libQuantumCore.a; sourceTree = SOURCE_ROOT; };
+		4BA14E7D8A0861A44D420C4C /* System.Core.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = System.Core.dll.s; path = Libraries/System.Core.dll.s; sourceTree = SOURCE_ROOT; };
+		52884349A51E985124CF684E /* libiongfx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiongfx.a; path = Libraries/Plugins/iOS/libiongfx.a; sourceTree = SOURCE_ROOT; };
 		5623C57317FDCB0800090B9E /* Unity-iPhone Tests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Unity-iPhone Tests.octest"; path = philz.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5623C57A17FDCB0900090B9E /* Unity-iPhone Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Unity-iPhone Tests-Info.plist"; sourceTree = "<group>"; };
 		5623C57C17FDCB0900090B9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -196,33 +204,32 @@
 		56DBF99C15E3CDC9007A4A8D /* iPhone_Sensors.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iPhone_Sensors.mm; sourceTree = "<group>"; };
 		56DBF99E15E3CE85007A4A8D /* iPhone_Sensors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iPhone_Sensors.h; sourceTree = "<group>"; };
 		56FD43950ED4745200FE3770 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
-		5B3641108234C0824B9AF2E1 /* libionfreetype2.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionfreetype2.a; path = Libraries/Plugins/iOS/libionfreetype2.a; sourceTree = SOURCE_ROOT; };
-		5BDB4DF2B72408BDCC4957EA /* libionbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionbase.a; path = Libraries/Plugins/iOS/libionbase.a; sourceTree = SOURCE_ROOT; };
-		5C90430CB241D3D8612C4D9C /* libport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libport.a; path = Libraries/Plugins/iOS/libport.a; sourceTree = SOURCE_ROOT; };
-		60C04BF28B29C759CE105B5B /* libionstblib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionstblib.a; path = Libraries/Plugins/iOS/libionstblib.a; sourceTree = SOURCE_ROOT; };
-		624047EC84F8C8FD5B74EDE7 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
-		6281497194B661781C19B861 /* libionmongoose.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionmongoose.a; path = Libraries/Plugins/iOS/libionmongoose.a; sourceTree = SOURCE_ROOT; };
-		692A4164B2142B1951E83D32 /* UnityEngine.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = UnityEngine.dll.s; path = Libraries/UnityEngine.dll.s; sourceTree = SOURCE_ROOT; };
-		69A24A46893953F1872AFBB8 /* libplatform.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libplatform.a; path = Libraries/Plugins/iOS/libplatform.a; sourceTree = SOURCE_ROOT; };
-		6C3347B89D8A5F3989EC5838 /* libevent_internal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent_internal.a; path = Libraries/Plugins/iOS/libevent_internal.a; sourceTree = SOURCE_ROOT; };
-		6D674C68A7F18A6F0051DC38 /* libNimbusAttributedLabel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNimbusAttributedLabel.a; path = Libraries/Plugins/iOS/libNimbusAttributedLabel.a; sourceTree = SOURCE_ROOT; };
-		6DA34548A056A06A811A5F3F /* libionportgfx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionportgfx.a; path = Libraries/Plugins/iOS/libionportgfx.a; sourceTree = SOURCE_ROOT; };
-		6FFD4590A7B4966A0AE8C2EA /* libprotos_lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotos_lib.a; path = Libraries/Plugins/iOS/libprotos_lib.a; sourceTree = SOURCE_ROOT; };
-		76E8421E97BDB8B7E1529BF3 /* CardboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardboardView.h; path = Libraries/Plugins/iOS/CardboardView.h; sourceTree = SOURCE_ROOT; };
-		77AC4DAAB41F37CE3628DB29 /* Assembly-CSharp.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "Assembly-CSharp.dll.s"; path = "Libraries/Assembly-CSharp.dll.s"; sourceTree = SOURCE_ROOT; };
-		78044C4B9631A98B8BCB426E /* System.Core.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = System.Core.dll.s; path = Libraries/System.Core.dll.s; sourceTree = SOURCE_ROOT; };
-		79C4475A8F2830448CE0A4EF /* UnityProInterface.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UnityProInterface.mm; path = Classes/Unity/UnityProInterface.mm; sourceTree = SOURCE_ROOT; };
-		7AE84E1BAA15D77FEA7E49B8 /* libionprofile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionprofile.a; path = Libraries/Plugins/iOS/libionprofile.a; sourceTree = SOURCE_ROOT; };
-		7B5747B993553BCA7B24548E /* CardboardAppController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = CardboardAppController.mm; path = Libraries/Plugins/iOS/CardboardAppController.mm; sourceTree = SOURCE_ROOT; };
+		5AE24FAB8FA7F9CFA29330D1 /* liblogging.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblogging.a; path = Libraries/Plugins/iOS/liblogging.a; sourceTree = SOURCE_ROOT; };
+		5D1E453F81436239FE441DB7 /* libcomposite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcomposite.a; path = Libraries/Plugins/iOS/libcomposite.a; sourceTree = SOURCE_ROOT; };
+		5D7E49B4B84102A708645DAD /* System.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = System.dll.s; path = Libraries/System.dll.s; sourceTree = SOURCE_ROOT; };
+		601D44FAAB170EC0EEEBCD6B /* LaunchScreenImage-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreenImage-Landscape.png"; sourceTree = SOURCE_ROOT; };
+		6FA3408DABB8DD282F1A467F /* libionjsoncpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionjsoncpp.a; path = Libraries/Plugins/iOS/libionjsoncpp.a; sourceTree = SOURCE_ROOT; };
+		73374282BF68E25C810DEE86 /* libionprofile.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionprofile.a; path = Libraries/Plugins/iOS/libionprofile.a; sourceTree = SOURCE_ROOT; };
+		7556433B8D1D59999206309A /* libNimbusCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNimbusCore.a; path = Libraries/Plugins/iOS/libNimbusCore.a; sourceTree = SOURCE_ROOT; };
+		75784DD594A7D5F5D8A727A1 /* libplatform.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libplatform.a; path = Libraries/Plugins/iOS/libplatform.a; sourceTree = SOURCE_ROOT; };
+		7B644430B991F31153044A24 /* UnityProInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnityProInterface.h; path = Classes/Unity/UnityProInterface.h; sourceTree = SOURCE_ROOT; };
 		7F36C10E13C5C673007FBDD9 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
 		7F36C10F13C5C673007FBDD9 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
 		7F36C11013C5C673007FBDD9 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		813344D782AF535F1CD14C08 /* libiongfxutils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiongfxutils.a; path = Libraries/Plugins/iOS/libiongfxutils.a; sourceTree = SOURCE_ROOT; };
+		816646B6B2D0E4C389269A0F /* libNimbusAttributedLabel.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNimbusAttributedLabel.a; path = Libraries/Plugins/iOS/libNimbusAttributedLabel.a; sourceTree = SOURCE_ROOT; };
 		830B5C100E5ED4C100C7819F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		8358D1B70ED1CC3700E3A684 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		83AE457A993F9AE4841A27D9 /* libionbase.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionbase.a; path = Libraries/Plugins/iOS/libionbase.a; sourceTree = SOURCE_ROOT; };
 		83B256E10E62FEA000468741 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		83B2570A0E62FF8A00468741 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		83B2574B0E63022200468741 /* OpenAL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenAL.framework; path = System/Library/Frameworks/OpenAL.framework; sourceTree = SDKROOT; };
 		83B2574E0E63025400468741 /* libiconv.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.2.dylib; path = usr/lib/libiconv.2.dylib; sourceTree = SDKROOT; };
+		840D4A7DBA63D9279BB8A62C /* UnityEngine.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = UnityEngine.dll.s; path = Libraries/UnityEngine.dll.s; sourceTree = SOURCE_ROOT; };
+		840F4D3CB2ED4D3EA02ABE7D /* libNimbusModels.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNimbusModels.a; path = Libraries/Plugins/iOS/libNimbusModels.a; sourceTree = SOURCE_ROOT; };
+		85D240FDAC0819CDF22F8F5D /* libvr.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvr.a; path = Libraries/Plugins/iOS/libvr.a; sourceTree = SOURCE_ROOT; };
+		873F4D91A6319DA32DEA46E1 /* liblogging_protos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblogging_protos.a; path = Libraries/Plugins/iOS/liblogging_protos.a; sourceTree = SOURCE_ROOT; };
+		88284D9494C0D1A9E9757DE8 /* libProtocolBuffers.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libProtocolBuffers.a; path = Libraries/Plugins/iOS/libProtocolBuffers.a; sourceTree = SOURCE_ROOT; };
 		8A07E1041715A5AB000EDC6F /* iAD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iAD.h; sourceTree = "<group>"; };
 		8A07E1051715A5AB000EDC6F /* iAD.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = iAD.mm; sourceTree = "<group>"; };
 		8A0FED471649699200E9727D /* EAGLContextHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAGLContextHelper.h; sourceTree = "<group>"; };
@@ -284,51 +291,44 @@
 		8AECDC781950835600CB29E8 /* UnityMetalSupport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityMetalSupport.h; sourceTree = "<group>"; };
 		8AF7755E17997D1300341121 /* AppDelegateListener.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegateListener.h; sourceTree = "<group>"; };
 		8AF7755F17997D1300341121 /* AppDelegateListener.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegateListener.mm; sourceTree = "<group>"; };
-		8BDE44AA861B36EA9CA1AE06 /* libiongfxutils.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libiongfxutils.a; path = Libraries/Plugins/iOS/libiongfxutils.a; sourceTree = SOURCE_ROOT; };
+		8BEF4B9CA226BAD86DDBC445 /* libevent_internal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent_internal.a; path = Libraries/Plugins/iOS/libevent_internal.a; sourceTree = SOURCE_ROOT; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90E64768BD5BC96EB9F4595A /* libionlodepnglib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionlodepnglib.a; path = Libraries/Plugins/iOS/libionlodepnglib.a; sourceTree = SOURCE_ROOT; };
-		92114FBFBE5345237F5D1B19 /* libcomposite.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcomposite.a; path = Libraries/Plugins/iOS/libcomposite.a; sourceTree = SOURCE_ROOT; };
-		96344F0782A715B4C552256C /* libionzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionzlib.a; path = Libraries/Plugins/iOS/libionzlib.a; sourceTree = SOURCE_ROOT; };
-		96A544FAA1B6DCD0166C0C1C /* libNimbusCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libNimbusCore.a; path = Libraries/Plugins/iOS/libNimbusCore.a; sourceTree = SOURCE_ROOT; };
-		9E3E46539D74DB17E132DA5A /* liblogging_protos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = liblogging_protos.a; path = Libraries/Plugins/iOS/liblogging_protos.a; sourceTree = SOURCE_ROOT; };
-		9EF94F3C970E766E98511A45 /* LaunchScreenImage-Landscape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreenImage-Landscape.png"; sourceTree = SOURCE_ROOT; };
-		A2D047F092C79FC93DF5688C /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = Libraries/Plugins/iOS/libevent.a; sourceTree = SOURCE_ROOT; };
-		A59F4DFEACF31292C92BF17D /* librecorder.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = librecorder.a; path = Libraries/Plugins/iOS/librecorder.a; sourceTree = SOURCE_ROOT; };
-		AA024F4685157B6D158C53BF /* UnityProInterface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = UnityProInterface.h; path = Classes/Unity/UnityProInterface.h; sourceTree = SOURCE_ROOT; };
+		958F4A05A1B42B5B5D18429F /* MPVideoPlayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MPVideoPlayer.mm; path = Classes/Unity/MPVideoPlayer.mm; sourceTree = SOURCE_ROOT; };
+		95BD4C1AACE1BFE92EF8ADC1 /* libevent.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libevent.a; path = Libraries/Plugins/iOS/libevent.a; sourceTree = SOURCE_ROOT; };
+		98B6460E8ED0F70888FF97B7 /* libionopenctm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionopenctm.a; path = Libraries/Plugins/iOS/libionopenctm.a; sourceTree = SOURCE_ROOT; };
+		990144618E7148285C39D705 /* CardboardView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardboardView.h; path = Libraries/Plugins/iOS/CardboardView.h; sourceTree = SOURCE_ROOT; };
+		9C5C4BDA8FD36F875A006904 /* LaunchScreenImage-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreenImage-Portrait.png"; sourceTree = SOURCE_ROOT; };
+		A1F24DEFBFE1FF631ABE237C /* libdevice.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdevice.a; path = Libraries/Plugins/iOS/libdevice.a; sourceTree = SOURCE_ROOT; };
+		A85548F49753EED06EADBED6 /* Mono.Security.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = Mono.Security.dll.s; path = Libraries/Mono.Security.dll.s; sourceTree = SOURCE_ROOT; };
+		AA354186B7AD8229DA7761FA /* libionportgfx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionportgfx.a; path = Libraries/Plugins/iOS/libionportgfx.a; sourceTree = SOURCE_ROOT; };
 		AAC3E38B1A68945900F6174A /* RegisterFeatures.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegisterFeatures.cpp; sourceTree = "<group>"; };
 		AAC3E38C1A68945900F6174A /* RegisterFeatures.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterFeatures.h; sourceTree = "<group>"; };
 		AAFE69D019F187C200638316 /* UnityViewControllerListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnityViewControllerListener.h; sourceTree = "<group>"; };
 		AAFE69D119F187C200638316 /* UnityViewControllerListener.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = UnityViewControllerListener.mm; sourceTree = "<group>"; };
-		B10244C7A4DF6E914B42CF94 /* libprotobuf.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotobuf.a; path = Libraries/Plugins/iOS/libprotobuf.a; sourceTree = SOURCE_ROOT; };
-		B5674BB79034380B6D7F9420 /* libionmath.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionmath.a; path = Libraries/Plugins/iOS/libionmath.a; sourceTree = SOURCE_ROOT; };
-		B6E746B5BC894DB3CACAAE10 /* libionremote.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionremote.a; path = Libraries/Plugins/iOS/libionremote.a; sourceTree = SOURCE_ROOT; };
-		B8694834B8DDCECEDC87A490 /* libionimagecompression.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionimagecompression.a; path = Libraries/Plugins/iOS/libionimagecompression.a; sourceTree = SOURCE_ROOT; };
-		BEB84216A73E260BA98AA2EB /* CardboardAppController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = CardboardAppController.h; path = Libraries/Plugins/iOS/CardboardAppController.h; sourceTree = SOURCE_ROOT; };
-		C4824DFEBCA2EA8D0554901C /* libsoftware.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsoftware.a; path = Libraries/Plugins/iOS/libsoftware.a; sourceTree = SOURCE_ROOT; };
-		C9B2400B8B165A004A598F1F /* mscorlib.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = mscorlib.dll.s; path = Libraries/mscorlib.dll.s; sourceTree = SOURCE_ROOT; };
-		CEBF4FBAA82A6DCED427647E /* System.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = System.dll.s; path = Libraries/System.dll.s; sourceTree = SOURCE_ROOT; };
-		D1D447BF915F930B33894175 /* LaunchScreenImage-Portrait.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchScreenImage-Portrait.png"; sourceTree = SOURCE_ROOT; };
-		D3FD44C3A6EB4F1973ED5B5F /* Mono.Security.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = Mono.Security.dll.s; path = Libraries/Mono.Security.dll.s; sourceTree = SOURCE_ROOT; };
-		D4BD488F88963C470155E823 /* libGoogleKitCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleKitCore.a; path = Libraries/Plugins/iOS/libGoogleKitCore.a; sourceTree = SOURCE_ROOT; };
-		D5A34A2C849A7A87FEFDC936 /* libionport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionport.a; path = Libraries/Plugins/iOS/libionport.a; sourceTree = SOURCE_ROOT; };
-		D6CB4067B744CA0FCBACB3A3 /* UnityEngine.UI.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = UnityEngine.UI.dll.s; path = Libraries/UnityEngine.UI.dll.s; sourceTree = SOURCE_ROOT; };
-		D7E34607A3236962E3F1C1EC /* libcardboard.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcardboard.a; path = Libraries/Plugins/iOS/libcardboard.a; sourceTree = SOURCE_ROOT; };
+		B33F4AE18714C66E27C44CF2 /* resources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = resources.bundle; path = Frameworks/Plugins/iOS/resources.bundle; sourceTree = SOURCE_ROOT; };
+		BE8E4974921C971A814D746F /* Assembly-CSharp.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = "Assembly-CSharp.dll.s"; path = "Libraries/Assembly-CSharp.dll.s"; sourceTree = SOURCE_ROOT; };
+		C1C246C5B18A908E3A3EFEC5 /* libionwebp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionwebp.a; path = Libraries/Plugins/iOS/libionwebp.a; sourceTree = SOURCE_ROOT; };
+		C55041C4976622FD133EEEE6 /* libGoogleKitCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleKitCore.a; path = Libraries/Plugins/iOS/libGoogleKitCore.a; sourceTree = SOURCE_ROOT; };
+		CB08446AB7B6696D969B4D7C /* libionremote.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionremote.a; path = Libraries/Plugins/iOS/libionremote.a; sourceTree = SOURCE_ROOT; };
+		CD434055B8B0BAEAA78F5E8D /* libgflags.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgflags.a; path = Libraries/Plugins/iOS/libgflags.a; sourceTree = SOURCE_ROOT; };
+		CF38466985936A1D71BEAF1F /* libremote_assets.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libremote_assets.a; path = Libraries/Plugins/iOS/libremote_assets.a; sourceTree = SOURCE_ROOT; };
 		D82DCFBB0E8000A5005D6AD8 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = main.mm; path = Classes/main.mm; sourceTree = SOURCE_ROOT; };
-		D82E4F51A07F6AE0249E47CF /* libionanalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionanalytics.a; path = Libraries/Plugins/iOS/libionanalytics.a; sourceTree = SOURCE_ROOT; };
 		D8A1C7240E80637F000160D3 /* RegisterMonoModules.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = RegisterMonoModules.cpp; path = Libraries/RegisterMonoModules.cpp; sourceTree = SOURCE_ROOT; };
 		D8A1C7250E80637F000160D3 /* RegisterMonoModules.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RegisterMonoModules.h; path = Libraries/RegisterMonoModules.h; sourceTree = SOURCE_ROOT; };
-		D90749D199BD8C7971D9D940 /* libionopenctm.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionopenctm.a; path = Libraries/Plugins/iOS/libionopenctm.a; sourceTree = SOURCE_ROOT; };
-		DE9F496AA9DBFB916E4E1D4E /* libionjsoncpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionjsoncpp.a; path = Libraries/Plugins/iOS/libionjsoncpp.a; sourceTree = SOURCE_ROOT; };
-		E5E74E13927DA2E339F8DBA9 /* libcardboard_protos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcardboard_protos.a; path = Libraries/Plugins/iOS/libcardboard_protos.a; sourceTree = SOURCE_ROOT; };
-		E84F474793FF799CF69EF18A /* libQuantumCore.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libQuantumCore.a; path = Libraries/Plugins/iOS/libQuantumCore.a; sourceTree = SOURCE_ROOT; };
-		ECCE4584AFB7EC794DCED293 /* libionwebp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionwebp.a; path = Libraries/Plugins/iOS/libionwebp.a; sourceTree = SOURCE_ROOT; };
-		F70441C786A698DCE9A72DF5 /* MPVideoPlayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MPVideoPlayer.mm; path = Classes/Unity/MPVideoPlayer.mm; sourceTree = SOURCE_ROOT; };
-		F98B4A0ABFB4D63AAB4D1B94 /* libProtocolBuffers.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libProtocolBuffers.a; path = Libraries/Plugins/iOS/libProtocolBuffers.a; sourceTree = SOURCE_ROOT; };
-		FB6547A584107466BD8472B1 /* libtype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtype.a; path = Libraries/Plugins/iOS/libtype.a; sourceTree = SOURCE_ROOT; };
+		DA55498AA61B6C908A7E1741 /* libtype.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libtype.a; path = Libraries/Plugins/iOS/libtype.a; sourceTree = SOURCE_ROOT; };
+		DF584B21903D957CA07942FF /* libport.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libport.a; path = Libraries/Plugins/iOS/libport.a; sourceTree = SOURCE_ROOT; };
+		E10F4185AC510A2335B733B2 /* libprotos_lib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libprotos_lib.a; path = Libraries/Plugins/iOS/libprotos_lib.a; sourceTree = SOURCE_ROOT; };
+		E76A4B6DAC94157DA0A6B877 /* libsensors.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libsensors.a; path = Libraries/Plugins/iOS/libsensors.a; sourceTree = SOURCE_ROOT; };
+		E914412D895F5D41BAEFED4C /* libdevice_internal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libdevice_internal.a; path = Libraries/Plugins/iOS/libdevice_internal.a; sourceTree = SOURCE_ROOT; };
+		EA864206812F36FA89985C5E /* libionzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionzlib.a; path = Libraries/Plugins/iOS/libionzlib.a; sourceTree = SOURCE_ROOT; };
+		EBA3446885D7ECBED8E72731 /* UnityEngine.UI.dll.s */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.asm; name = UnityEngine.UI.dll.s; path = Libraries/UnityEngine.UI.dll.s; sourceTree = SOURCE_ROOT; };
+		F54849E19C6FD7F6F5ECE7DD /* libcardboard_protos.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libcardboard_protos.a; path = Libraries/Plugins/iOS/libcardboard_protos.a; sourceTree = SOURCE_ROOT; };
+		F5C8472A975666EC5CCC3837 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = SOURCE_ROOT; };
+		F6DA4050BC543CA89AD9336F /* libionimagecompression.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libionimagecompression.a; path = Libraries/Plugins/iOS/libionimagecompression.a; sourceTree = SOURCE_ROOT; };
+		F8F74C38925BC703CFF477E3 /* UnityProInterface.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = UnityProInterface.mm; path = Classes/Unity/UnityProInterface.mm; sourceTree = SOURCE_ROOT; };
 		FC3D7EBE16D2621600D1BD0D /* CrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CrashReporter.h; sourceTree = "<group>"; };
 		FC85CCB916C3ED8000BAF7C7 /* CrashReporter.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CrashReporter.mm; sourceTree = "<group>"; };
 		FC85CCBA16C3ED8000BAF7C7 /* PLCrashReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLCrashReporter.h; sourceTree = "<group>"; };
-		FD704E5EBE1C72D9F4D8784C /* libapi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libapi.a; path = Libraries/Plugins/iOS/libapi.a; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -336,7 +336,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AB432C51B1AA9BF00CB2A5D /* CoreText.framework in Frameworks */,
+				3A2494041B1B12CE000E1CE3 /* CoreText.framework in Frameworks */,
 				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
 				830B5C110E5ED4C100C7819F /* UIKit.framework in Frameworks */,
 				83B256E20E62FEA000468741 /* OpenGLES.framework in Frameworks */,
@@ -354,58 +354,58 @@
 				7F36C11313C5C673007FBDD9 /* AVFoundation.framework in Frameworks */,
 				56B7959B1442E0F20026B3DD /* CoreGraphics.framework in Frameworks */,
 				56B7960F1442E1770026B3DD /* CoreMotion.framework in Frameworks */,
-				050A4C46862CDB663BEA1C3C /* libiPhone-lib.a in Frameworks */,
-				52C74597A30AAA3204A1016B /* libiontext.a in Frameworks */,
-				163342FA9090DBA3F1F15F77 /* libcardboard.a in Frameworks */,
-				5404487CBE0E777E4D95B3CB /* libionimagecompression.a in Frameworks */,
-				9BA74EAC87A6432B94611F53 /* libionimage.a in Frameworks */,
-				A58C49FAA7BF8D88D620C765 /* libremote_assets.a in Frameworks */,
-				653444B994CFD8613456ED0D /* libport.a in Frameworks */,
-				A7C74E579E6BAD6CB8FE2E7B /* libevent_internal.a in Frameworks */,
-				AB31440C824ED9D82BB325DB /* libQuantumCore.a in Frameworks */,
-				ED844B94AD013576EC397AAF /* libbase.a in Frameworks */,
-				A8F543B0BF21661A36A4F568 /* libNimbusCore.a in Frameworks */,
-				54A045E78369356076754052 /* librecorder.a in Frameworks */,
-				907D465BB78223095253F121 /* libiongfx.a in Frameworks */,
-				70E147B397C59EF4F0D119F4 /* libprotos_lib.a in Frameworks */,
-				256D466E96B4413BE1AADBB0 /* libsoftware.a in Frameworks */,
-				2EE84FC080B5837A6FE052B8 /* libionwebp.a in Frameworks */,
-				6EF241B48D1B0224F3BDE524 /* libcardboard_protos.a in Frameworks */,
-				47364F9A82014C0779A3248A /* libionportgfx.a in Frameworks */,
-				E3DD414C9814DC7CAB4B66FD /* libionstblib.a in Frameworks */,
-				1CFE49EEB356762F6AB8596C /* libGoogleKitHUD.a in Frameworks */,
-				7CB34558AF78B2A1E9C218F0 /* libionmath.a in Frameworks */,
-				01B54F35921889328D6D047D /* libionlodepnglib.a in Frameworks */,
-				E7404E529C71EED2E0EA1D39 /* libiongfxutils.a in Frameworks */,
-				201640EB9AD3F0589D60343D /* libsensors.a in Frameworks */,
-				F5EE4B48ADCFF06A00B72302 /* libtype.a in Frameworks */,
-				201D4D2984D1D9F6C3E50F99 /* libapi.a in Frameworks */,
-				945E43F8A6DDFD5BD542310A /* libprotobuf.a in Frameworks */,
-				27204C6BA716CB1182E42CB2 /* libionfreetype2.a in Frameworks */,
-				29654213B31980F4B47E0C8D /* libionremote.a in Frameworks */,
-				C0BE48DA89940B8060FB3BEF /* libNimbusAttributedLabel.a in Frameworks */,
-				D62441E7BBBA5210DE5E3F3D /* liblogging.a in Frameworks */,
-				67DF483D81CF80F17698830C /* libProtocolBuffers.a in Frameworks */,
-				8BF54DEAAB1800E9743759E3 /* libplatform.a in Frameworks */,
-				80334A248F7629B3F600609D /* libvr.a in Frameworks */,
-				0EFF4E5A93E2873258AB0FC0 /* libionport.a in Frameworks */,
-				6A0741A4B9D87E2486516BD3 /* libcomposite.a in Frameworks */,
-				38FD477CABD218573DB057B0 /* libdatatypes.a in Frameworks */,
-				DD93429E8376B778F0315AEF /* libdevice.a in Frameworks */,
-				0644473996A4C7BDA228506F /* libNimbusModels.a in Frameworks */,
-				9D1B40528C6C5D7DB72CE17C /* libevent.a in Frameworks */,
-				AC5647DD85ADAD6599084C18 /* libionanalytics.a in Frameworks */,
-				150D4AB4903A6AAC7D095AEF /* libgflags.a in Frameworks */,
-				EF1642A29BC3CAFB6EBCB132 /* libionbase.a in Frameworks */,
-				6FC74A20BBE6AC571A94EFEF /* libionjsoncpp.a in Frameworks */,
-				99A847EDABA5FA3B1F78C2EC /* libionzlib.a in Frameworks */,
-				C472428BA29201D0E17D9466 /* libdevice_internal.a in Frameworks */,
-				542341A4ABB9FEA2E9B79657 /* libionmongoose.a in Frameworks */,
-				812B4EDE815F2BF75255F56A /* libGoogleKitCore.a in Frameworks */,
-				5B104E82B366686F30BADCA1 /* libionopenctm.a in Frameworks */,
-				7D4D468FB03B02748DBB9DD0 /* libvrunity.a in Frameworks */,
-				A5194BA4B3831C8DF8D4120D /* liblogging_protos.a in Frameworks */,
-				413544ABBB4A3E64C164AAF0 /* libionprofile.a in Frameworks */,
+				A91F4B9A897C2830525BD03A /* libiPhone-lib.a in Frameworks */,
+				0E7E4A09B76F192351EF9859 /* libiontext.a in Frameworks */,
+				D1904ABD98723B33A2916AC1 /* libcardboard.a in Frameworks */,
+				CB3647359D96DC13E188C841 /* libionimagecompression.a in Frameworks */,
+				460C43D18A9CCCD53F10B0A9 /* libionimage.a in Frameworks */,
+				79F14D69B654932ACC817333 /* libremote_assets.a in Frameworks */,
+				CA1941E4A706C28CF6B351C1 /* libport.a in Frameworks */,
+				60914D729CFC9C7DB5C49A48 /* libevent_internal.a in Frameworks */,
+				4A0B4705B9829F77F6A5B877 /* libQuantumCore.a in Frameworks */,
+				20CD4518A5E372AC4A5203F7 /* libbase.a in Frameworks */,
+				A5214542A0FBF1AF02BF8D81 /* libNimbusCore.a in Frameworks */,
+				EC9A46CD995E8C25CC3BB10E /* librecorder.a in Frameworks */,
+				5DD84ACEBAEFCC6FA0BAF71A /* libiongfx.a in Frameworks */,
+				30DC443AA09D39442AC241CD /* libprotos_lib.a in Frameworks */,
+				551F4F40B4DF798F4DEA971D /* libsoftware.a in Frameworks */,
+				52724F3E850F3DA0AD0E6EB8 /* libionwebp.a in Frameworks */,
+				5DA94093ADAF9C97BE949F0F /* libcardboard_protos.a in Frameworks */,
+				22294ED29639EAE7968F3376 /* libionportgfx.a in Frameworks */,
+				3EC44EF8907C3B1A23C87989 /* libionstblib.a in Frameworks */,
+				3D3A4BC782EE3ED748BC6847 /* libGoogleKitHUD.a in Frameworks */,
+				5DB6410F8E2F76BBF4E8C3B9 /* libionmath.a in Frameworks */,
+				3A1648E2A95772B6245725EE /* libionlodepnglib.a in Frameworks */,
+				7F3A40618EC5F6DA7CD169CF /* libiongfxutils.a in Frameworks */,
+				AE124DBABCC03C5EC8A98792 /* libsensors.a in Frameworks */,
+				E58E448F81C2A67EFDBE29D2 /* libtype.a in Frameworks */,
+				99854B8A8ED8D0BC3D219E3C /* libapi.a in Frameworks */,
+				D7124E8BB913E1C77D61AA39 /* libprotobuf.a in Frameworks */,
+				F09C4353A0B347AC056467D1 /* libionfreetype2.a in Frameworks */,
+				75DD4880B5ACB252199B8DC8 /* libionremote.a in Frameworks */,
+				A24149878A551199EB3FA810 /* libNimbusAttributedLabel.a in Frameworks */,
+				FF8547359752A83DFD5B5FD4 /* liblogging.a in Frameworks */,
+				9ADC43D6AC34E8E33957E847 /* libProtocolBuffers.a in Frameworks */,
+				30994019A3BA2803AE25DB64 /* libplatform.a in Frameworks */,
+				4C794B8BA7F1E1A8B0C6EF41 /* libvr.a in Frameworks */,
+				A10D49DFAE4E10CC584D7F20 /* libionport.a in Frameworks */,
+				29E9429A9D7DCE6277D4C1CE /* libcomposite.a in Frameworks */,
+				23E44E7D840801BD5C509211 /* libdatatypes.a in Frameworks */,
+				576E4AE5AB0ED1F5AAA09552 /* libdevice.a in Frameworks */,
+				8450436485277738BFBD9F9C /* libNimbusModels.a in Frameworks */,
+				203F48868CF84251FA8E772A /* libevent.a in Frameworks */,
+				5103452E899EC8EF0FF96804 /* libionanalytics.a in Frameworks */,
+				4DD64CD7BEA5AE971E5790BE /* libgflags.a in Frameworks */,
+				19A648E19650D9D5466ACD4C /* libionbase.a in Frameworks */,
+				E9EE47179CB04F99A802B37D /* libionjsoncpp.a in Frameworks */,
+				35754ACA8A4C7268855CB978 /* libionzlib.a in Frameworks */,
+				7B3A4C9FA29C8EAEC8069A41 /* libdevice_internal.a in Frameworks */,
+				B1DE40918C30D9A2C1E45283 /* libionmongoose.a in Frameworks */,
+				30D3492EA86A925B07C1449C /* libGoogleKitCore.a in Frameworks */,
+				5CDD42A8982FC07E8B435AD1 /* libionopenctm.a in Frameworks */,
+				30D040D3BDCAB6CA4A1F4400 /* libvrunity.a in Frameworks */,
+				677B4AEA9978D46172195490 /* liblogging_protos.a in Frameworks */,
+				75B4478FA51DE5EF903D307D /* libionprofile.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +421,68 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03244395A6E34C3187C5F506 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				18F94D4188687AD957201457 /* libiontext.a */,
+				06ED4B04AA0D3A1B91F86857 /* libcardboard.a */,
+				F6DA4050BC543CA89AD9336F /* libionimagecompression.a */,
+				4397453CA20EAF8BD74650A2 /* libionimage.a */,
+				CF38466985936A1D71BEAF1F /* libremote_assets.a */,
+				DF584B21903D957CA07942FF /* libport.a */,
+				8BEF4B9CA226BAD86DDBC445 /* libevent_internal.a */,
+				481343D59E466AC5D2C3C504 /* libQuantumCore.a */,
+				1A3F46E3B4D47BE7F23DCCA8 /* libbase.a */,
+				7556433B8D1D59999206309A /* libNimbusCore.a */,
+				216C44BFA6513B85C6B3F693 /* librecorder.a */,
+				52884349A51E985124CF684E /* libiongfx.a */,
+				E10F4185AC510A2335B733B2 /* libprotos_lib.a */,
+				33764075A77AD73D24624C8C /* libsoftware.a */,
+				0FC54EF9838A473AD7583518 /* CardboardAppController.mm */,
+				C1C246C5B18A908E3A3EFEC5 /* libionwebp.a */,
+				F54849E19C6FD7F6F5ECE7DD /* libcardboard_protos.a */,
+				3F054B5EA070912CF1833EE8 /* CardboardView.mm */,
+				AA354186B7AD8229DA7761FA /* libionportgfx.a */,
+				28734A52A426B18E088BE372 /* libionstblib.a */,
+				177B4EE081E2C4ACD34E4454 /* CardboardAppController.h */,
+				38B343DDBEF20F29E4C86DE7 /* libGoogleKitHUD.a */,
+				09304852AA8BA50F16E5D011 /* libionmath.a */,
+				1F3F49E295201C9F1BDF9A10 /* libionlodepnglib.a */,
+				813344D782AF535F1CD14C08 /* libiongfxutils.a */,
+				E76A4B6DAC94157DA0A6B877 /* libsensors.a */,
+				DA55498AA61B6C908A7E1741 /* libtype.a */,
+				3DE947B788E6F60BDCD623F2 /* libapi.a */,
+				3E264841B2AD077025BD04F5 /* libprotobuf.a */,
+				2C634EA08AB729C337B52DEC /* libionfreetype2.a */,
+				CB08446AB7B6696D969B4D7C /* libionremote.a */,
+				816646B6B2D0E4C389269A0F /* libNimbusAttributedLabel.a */,
+				5AE24FAB8FA7F9CFA29330D1 /* liblogging.a */,
+				88284D9494C0D1A9E9757DE8 /* libProtocolBuffers.a */,
+				75784DD594A7D5F5D8A727A1 /* libplatform.a */,
+				85D240FDAC0819CDF22F8F5D /* libvr.a */,
+				29704A97871908A9528F0F30 /* libionport.a */,
+				5D1E453F81436239FE441DB7 /* libcomposite.a */,
+				32D8492EAFF0EC0A2CCE4F44 /* libdatatypes.a */,
+				A1F24DEFBFE1FF631ABE237C /* libdevice.a */,
+				840F4D3CB2ED4D3EA02ABE7D /* libNimbusModels.a */,
+				95BD4C1AACE1BFE92EF8ADC1 /* libevent.a */,
+				0B10472DB7417EAB570898EA /* libionanalytics.a */,
+				CD434055B8B0BAEAA78F5E8D /* libgflags.a */,
+				83AE457A993F9AE4841A27D9 /* libionbase.a */,
+				6FA3408DABB8DD282F1A467F /* libionjsoncpp.a */,
+				EA864206812F36FA89985C5E /* libionzlib.a */,
+				E914412D895F5D41BAEFED4C /* libdevice_internal.a */,
+				39CB458580CEDF9A03E480F5 /* libionmongoose.a */,
+				990144618E7148285C39D705 /* CardboardView.h */,
+				C55041C4976622FD133EEEE6 /* libGoogleKitCore.a */,
+				98B6460E8ED0F70888FF97B7 /* libionopenctm.a */,
+				40974AC5AD1DD83C2BF6E7A8 /* libvrunity.a */,
+				873F4D91A6319DA32DEA46E1 /* liblogging_protos.a */,
+				73374282BF68E25C810DEE86 /* libionprofile.a */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -430,10 +492,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		27E845A196443543F2910F69 /* Plugins */ = {
+			isa = PBXGroup;
+			children = (
+				A1C74C5FAA9EC2EFC62BC741 /* iOS */,
+			);
+			path = Plugins;
+			sourceTree = "<group>";
+		};
 		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				3AB432C21B1AA99400CB2A5D /* resources.bundle */,
+				3A2494051B1B12E1000E1CE3 /* resources.bundle */,
 				56C56C9717D6015100616839 /* Images.xcassets */,
 				D82DCFB50E8000A5005D6AD8 /* Classes */,
 				5623C57817FDCB0800090B9E /* Unity-iPhone Tests */,
@@ -442,9 +512,9 @@
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				8D1107310486CEB800E47090 /* Info.plist */,
 				83B2574E0E63025400468741 /* libiconv.2.dylib */,
-				624047EC84F8C8FD5B74EDE7 /* LaunchScreen.xib */,
-				D1D447BF915F930B33894175 /* LaunchScreenImage-Portrait.png */,
-				9EF94F3C970E766E98511A45 /* LaunchScreenImage-Landscape.png */,
+				F5C8472A975666EC5CCC3837 /* LaunchScreen.xib */,
+				9C5C4BDA8FD36F875A006904 /* LaunchScreenImage-Portrait.png */,
+				601D44FAAB170EC0EEEBCD6B /* LaunchScreenImage-Landscape.png */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -452,7 +522,7 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				3AB432C41B1AA9BF00CB2A5D /* CoreText.framework */,
+				3A2494031B1B12CE000E1CE3 /* CoreText.framework */,
 				8A1B656D185FB650009F37BD /* AdSupport.framework */,
 				8358D1B70ED1CC3700E3A684 /* AudioToolbox.framework */,
 				7F36C11013C5C673007FBDD9 /* AVFoundation.framework */,
@@ -470,71 +540,9 @@
 				83B2570A0E62FF8A00468741 /* QuartzCore.framework */,
 				56BCBA380FCF049A0030C3B2 /* SystemConfiguration.framework */,
 				830B5C100E5ED4C100C7819F /* UIKit.framework */,
-				D0AE433D8BF3216A86C6DDB5 /* Plugins */,
+				27E845A196443543F2910F69 /* Plugins */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		51C64A11A9685879595430C5 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				3B3C47A6B9106F43794FBF83 /* libiontext.a */,
-				D7E34607A3236962E3F1C1EC /* libcardboard.a */,
-				B8694834B8DDCECEDC87A490 /* libionimagecompression.a */,
-				13984B85A76C8340826CFEB4 /* libionimage.a */,
-				4E1440869418C4BC21A2CEFF /* libremote_assets.a */,
-				5C90430CB241D3D8612C4D9C /* libport.a */,
-				6C3347B89D8A5F3989EC5838 /* libevent_internal.a */,
-				E84F474793FF799CF69EF18A /* libQuantumCore.a */,
-				562046FC89A8D03E20955FFE /* libbase.a */,
-				96A544FAA1B6DCD0166C0C1C /* libNimbusCore.a */,
-				A59F4DFEACF31292C92BF17D /* librecorder.a */,
-				2C66400A826A2979D3225EB8 /* libiongfx.a */,
-				6FFD4590A7B4966A0AE8C2EA /* libprotos_lib.a */,
-				C4824DFEBCA2EA8D0554901C /* libsoftware.a */,
-				7B5747B993553BCA7B24548E /* CardboardAppController.mm */,
-				ECCE4584AFB7EC794DCED293 /* libionwebp.a */,
-				E5E74E13927DA2E339F8DBA9 /* libcardboard_protos.a */,
-				330F485891D0ACD1A98CFA72 /* CardboardView.mm */,
-				6DA34548A056A06A811A5F3F /* libionportgfx.a */,
-				60C04BF28B29C759CE105B5B /* libionstblib.a */,
-				BEB84216A73E260BA98AA2EB /* CardboardAppController.h */,
-				1CDC4CC59C0B64E21AB36F5C /* libGoogleKitHUD.a */,
-				B5674BB79034380B6D7F9420 /* libionmath.a */,
-				90E64768BD5BC96EB9F4595A /* libionlodepnglib.a */,
-				8BDE44AA861B36EA9CA1AE06 /* libiongfxutils.a */,
-				0C8446BD9EC3D02624DCA02A /* libsensors.a */,
-				FB6547A584107466BD8472B1 /* libtype.a */,
-				FD704E5EBE1C72D9F4D8784C /* libapi.a */,
-				B10244C7A4DF6E914B42CF94 /* libprotobuf.a */,
-				5B3641108234C0824B9AF2E1 /* libionfreetype2.a */,
-				B6E746B5BC894DB3CACAAE10 /* libionremote.a */,
-				6D674C68A7F18A6F0051DC38 /* libNimbusAttributedLabel.a */,
-				402E4DD4BAFC976EE9848A95 /* liblogging.a */,
-				F98B4A0ABFB4D63AAB4D1B94 /* libProtocolBuffers.a */,
-				69A24A46893953F1872AFBB8 /* libplatform.a */,
-				4F8341FEA1D2E2C63BE91474 /* libvr.a */,
-				D5A34A2C849A7A87FEFDC936 /* libionport.a */,
-				92114FBFBE5345237F5D1B19 /* libcomposite.a */,
-				31C84D148312C785739CE1A8 /* libdatatypes.a */,
-				45994E7F9FB8FAC285D0F0DC /* libdevice.a */,
-				0CA9418E82556823282D6B89 /* libNimbusModels.a */,
-				A2D047F092C79FC93DF5688C /* libevent.a */,
-				D82E4F51A07F6AE0249E47CF /* libionanalytics.a */,
-				46144CBC81047FE20361DA49 /* libgflags.a */,
-				5BDB4DF2B72408BDCC4957EA /* libionbase.a */,
-				DE9F496AA9DBFB916E4E1D4E /* libionjsoncpp.a */,
-				96344F0782A715B4C552256C /* libionzlib.a */,
-				064848B883BB3639B0A69CF9 /* libdevice_internal.a */,
-				6281497194B661781C19B861 /* libionmongoose.a */,
-				76E8421E97BDB8B7E1529BF3 /* CardboardView.h */,
-				D4BD488F88963C470155E823 /* libGoogleKitCore.a */,
-				D90749D199BD8C7971D9D940 /* libionopenctm.a */,
-				0806422AA74DAA437A436224 /* libvrunity.a */,
-				9E3E46539D74DB17E132DA5A /* liblogging_protos.a */,
-				7AE84E1BAA15D77FEA7E49B8 /* libionprofile.a */,
-			);
-			path = iOS;
 			sourceTree = "<group>";
 		};
 		5623C57817FDCB0800090B9E /* Unity-iPhone Tests */ = {
@@ -554,14 +562,6 @@
 				5623C58017FDCB0900090B9E /* Unity-iPhone Tests-Prefix.pch */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		7A3C4DFD818B9A00415FB324 /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				054540699B6AFABCF0C865E1 /* resources.bundle */,
-			);
-			path = iOS;
 			sourceTree = "<group>";
 		};
 		8A3EDDC51615B7C1001839E9 /* UI */ = {
@@ -635,25 +635,25 @@
 				8AB3CB3D16D390BB00697AD5 /* VideoPlayer.mm */,
 				8AA568AC1827DD79004969C7 /* WWWConnection.h */,
 				8AA568AD1827DD79004969C7 /* WWWConnection.mm */,
-				F70441C786A698DCE9A72DF5 /* MPVideoPlayer.mm */,
-				AA024F4685157B6D158C53BF /* UnityProInterface.h */,
-				79C4475A8F2830448CE0A4EF /* UnityProInterface.mm */,
+				958F4A05A1B42B5B5D18429F /* MPVideoPlayer.mm */,
+				7B644430B991F31153044A24 /* UnityProInterface.h */,
+				F8F74C38925BC703CFF477E3 /* UnityProInterface.mm */,
 			);
 			path = Unity;
 			sourceTree = "<group>";
 		};
-		D08F407A855E88839A02B053 /* Plugins */ = {
+		A1C74C5FAA9EC2EFC62BC741 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				51C64A11A9685879595430C5 /* iOS */,
+				B33F4AE18714C66E27C44CF2 /* resources.bundle */,
 			);
-			path = Plugins;
+			path = iOS;
 			sourceTree = "<group>";
 		};
-		D0AE433D8BF3216A86C6DDB5 /* Plugins */ = {
+		A3C84811A41643955997CEC2 /* Plugins */ = {
 			isa = PBXGroup;
 			children = (
-				7A3C4DFD818B9A00415FB324 /* iOS */,
+				03244395A6E34C3187C5F506 /* iOS */,
 			);
 			path = Plugins;
 			sourceTree = "<group>";
@@ -690,15 +690,15 @@
 				AAC3E38C1A68945900F6174A /* RegisterFeatures.h */,
 				D8A1C7240E80637F000160D3 /* RegisterMonoModules.cpp */,
 				D8A1C7250E80637F000160D3 /* RegisterMonoModules.h */,
-				477248CAB1A7B4B6963F9B65 /* libiPhone-lib.a */,
-				77AC4DAAB41F37CE3628DB29 /* Assembly-CSharp.dll.s */,
-				D3FD44C3A6EB4F1973ED5B5F /* Mono.Security.dll.s */,
-				78044C4B9631A98B8BCB426E /* System.Core.dll.s */,
-				CEBF4FBAA82A6DCED427647E /* System.dll.s */,
-				D6CB4067B744CA0FCBACB3A3 /* UnityEngine.UI.dll.s */,
-				692A4164B2142B1951E83D32 /* UnityEngine.dll.s */,
-				C9B2400B8B165A004A598F1F /* mscorlib.dll.s */,
-				D08F407A855E88839A02B053 /* Plugins */,
+				44F3493F82346A7C332DCEED /* libiPhone-lib.a */,
+				BE8E4974921C971A814D746F /* Assembly-CSharp.dll.s */,
+				A85548F49753EED06EADBED6 /* Mono.Security.dll.s */,
+				4BA14E7D8A0861A44D420C4C /* System.Core.dll.s */,
+				5D7E49B4B84102A708645DAD /* System.dll.s */,
+				EBA3446885D7ECBED8E72731 /* UnityEngine.UI.dll.s */,
+				840D4A7DBA63D9279BB8A62C /* UnityEngine.dll.s */,
+				2CCF4561800AFF6504DCCAEC /* mscorlib.dll.s */,
+				A3C84811A41643955997CEC2 /* Plugins */,
 			);
 			path = Libraries;
 			sourceTree = SOURCE_ROOT;
@@ -782,11 +782,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				56C56C9817D6015200616839 /* Images.xcassets in Resources */,
-				88114C00A8D8E0798A0E1CC5 /* resources.bundle in Resources */,
-				89B44C8F9205BC08960F360D /* LaunchScreen.xib in Resources */,
-				3AB432C31B1AA99400CB2A5D /* resources.bundle in Resources */,
-				FFCF4426AFDED82877059BC6 /* LaunchScreenImage-Portrait.png in Resources */,
-				469B4A608A765B215C3C2C3D /* LaunchScreenImage-Landscape.png in Resources */,
+				C4A84C62AB34D404F97417D5 /* resources.bundle in Resources */,
+				83B341C58B4BE41DF9DD978A /* LaunchScreen.xib in Resources */,
+				3A2494061B1B12E1000E1CE3 /* resources.bundle in Resources */,
+				413E4E15A40A0C2B74B40A12 /* LaunchScreenImage-Portrait.png in Resources */,
+				451D4932A97D94782F0E2BE9 /* LaunchScreenImage-Landscape.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -856,17 +856,17 @@
 				8AF7756017997D2700341121 /* AppDelegateListener.mm in Sources */,
 				AAC3E38D1A68945900F6174A /* RegisterFeatures.cpp in Sources */,
 				8ACB801C177081D4005D0019 /* DeviceSettings.mm in Sources */,
-				E713457D9AD1FF6DBBF4C6C9 /* Assembly-CSharp.dll.s in Sources */,
-				D93D47E0A44C37F43E704FB9 /* Mono.Security.dll.s in Sources */,
-				D49C41038782A66E648A25FA /* System.Core.dll.s in Sources */,
-				7B9E4A7D9625510CC5ACF022 /* System.dll.s in Sources */,
-				98BE4C339346601420A96ECA /* UnityEngine.UI.dll.s in Sources */,
-				785B4219BB2289CE3E3737F5 /* UnityEngine.dll.s in Sources */,
-				B1B446A8958D83B9813BE7AE /* mscorlib.dll.s in Sources */,
-				73424C82905D9CC14D971CAC /* CardboardAppController.mm in Sources */,
-				873B48C89AC64CA4378089D9 /* CardboardView.mm in Sources */,
-				D5CF4D5F879EAF9DF1151F2F /* MPVideoPlayer.mm in Sources */,
-				91784DCB963B22C4683206CB /* UnityProInterface.mm in Sources */,
+				0D1A45F8BD119D1D260DCB39 /* Assembly-CSharp.dll.s in Sources */,
+				03F046B9BDAD6A3D962216F4 /* Mono.Security.dll.s in Sources */,
+				B31740948EEF7B6D8F7AB6F2 /* System.Core.dll.s in Sources */,
+				79F64AFF8CD51C1EBBF008DB /* System.dll.s in Sources */,
+				68824177B44A02513B3014B9 /* UnityEngine.UI.dll.s in Sources */,
+				EE3F4C83BC6993929EE0B7AF /* UnityEngine.dll.s in Sources */,
+				ED054A48AAFE082BFDCED4E3 /* mscorlib.dll.s in Sources */,
+				B5A44114AB0128E8B7550990 /* CardboardAppController.mm in Sources */,
+				CBC64B48A32E23DB2B5CC605 /* CardboardView.mm in Sources */,
+				F42A45F4812D0F49322695FF /* MPVideoPlayer.mm in Sources */,
+				70D1494DA901013D5328A445 /* UnityProInterface.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
