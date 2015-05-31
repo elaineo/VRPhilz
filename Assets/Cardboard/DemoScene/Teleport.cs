@@ -22,6 +22,7 @@ public class Teleport : MonoBehaviour {
   private bool showText = false;
 
   void Start() {
+		transform.position = new Vector3 (-0.5F, 10.0F, 1.2F);
     startingPosition = transform.localPosition;
     SetGazedAt(false);
   }
@@ -32,7 +33,10 @@ public class Teleport : MonoBehaviour {
 
 	public void PopUp() {
 		transform.position = new Vector3 (-0.5F, 1.5F, 1.2F);
-		transform.rotation = Quaternion.Euler(2.60551e-11F, 325F, 180F);
+		//transform.rotation = Quaternion.Euler(2.60551e-11F, 325F, 180F);
+	}
+	public void GoAway() {
+		transform.position = new Vector3 (-0.5F, 10.0F, 1.2F);
 	}
 	
 	public void Reset() {
