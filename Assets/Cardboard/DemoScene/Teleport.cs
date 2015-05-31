@@ -13,11 +13,13 @@
 // limitations under the License.
 
 using UnityEngine;
+using UnityEngine.UI;
 using System.Collections;
 
 [RequireComponent(typeof(Collider))]
 public class Teleport : MonoBehaviour {
   private Vector3 startingPosition;
+  private bool showText = false;
 
   void Start() {
     startingPosition = transform.localPosition;
@@ -37,9 +39,17 @@ public class Teleport : MonoBehaviour {
   }
 
   public void TeleportRandomly() {
-    Vector3 direction = Random.onUnitSphere;
-    direction.y = Mathf.Clamp(direction.y, 0.5f, 1f);
-    float distance = 2 * Random.value + 1.5f;
-    transform.localPosition = direction * distance;
+		showText = true;
   }
+
+	void OnGUI()
+	{
+		if(showText)
+		{
+			// If you've clicked the object, show this button
+			if(GUI.Button(new Rect(100,100,100,20), "I love Philz"))
+				// If you click this button, set showText to false
+				showText = false;
+		}
+	}
 }
