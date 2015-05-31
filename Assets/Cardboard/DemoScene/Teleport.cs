@@ -30,7 +30,11 @@ public class Teleport : MonoBehaviour {
     GetComponent<Renderer>().material.color = gazedAt ? Color.green : Color.red;
   }
 
-  public void Reset() {
+	public void PopUp() {
+		transform.localPosition += new Vector3 (0, 0.5F, 0);
+	}
+	
+	public void Reset() {
     transform.localPosition = startingPosition;
   }
 
