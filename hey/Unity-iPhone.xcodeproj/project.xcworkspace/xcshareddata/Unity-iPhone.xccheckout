@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>4D0A1E13-F271-405C-BFB1-9117303DACCF</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Unity-iPhone</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>FD538F105DA476566ABBF3BBD72AF0D4A1978562</key>
+		<string>https://github.com/elaineo/VRPhilz.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>hey/Unity-iPhone.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>FD538F105DA476566ABBF3BBD72AF0D4A1978562</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/elaineo/VRPhilz.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>FD538F105DA476566ABBF3BBD72AF0D4A1978562</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>FD538F105DA476566ABBF3BBD72AF0D4A1978562</string>
+			<key>IDESourceControlWCCName</key>
+			<string>VRPhilz</string>
+		</dict>
+	</array>
+</dict>
+</plist>

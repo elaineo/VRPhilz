@@ -31,7 +31,8 @@ public class Teleport : MonoBehaviour {
   }
 
 	public void PopUp() {
-		transform.localPosition += new Vector3 (0, 0.5F, 0);
+		transform.position = new Vector3 (-0.5F, 1.5F, 1.2F);
+		transform.rotation = Quaternion.Euler(2.60551e-11F, 325F, 180F);
 	}
 	
 	public void Reset() {
