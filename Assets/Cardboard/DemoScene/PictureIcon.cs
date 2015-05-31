@@ -18,7 +18,6 @@ public class PictureIcon : MonoBehaviour {
 		} else {
 			transform.localScale = startingSize;
 		}
-		Debug.Log (GetComponent<Renderer> ().transform.localScale);
 	}
 	
 }
