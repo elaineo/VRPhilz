@@ -21679,7 +21679,7 @@ mono_image_table:
 
 	.long 6
 	.asciz "Assembly-CSharp"
-	.asciz "FCA13735-8BFD-430F-A7D1-6C07CC3C190A"
+	.asciz "61948C05-6B45-4720-9554-8B4250CC9BC4"
 	.asciz ""
 	.asciz ""
 	.align 3
@@ -21739,7 +21739,7 @@ mono_aot_file_info:
 .text
 	.align 2
 mono_assembly_guid:
-	.asciz "FCA13735-8BFD-430F-A7D1-6C07CC3C190A"
+	.asciz "61948C05-6B45-4720-9554-8B4250CC9BC4"
 .text
 	.align 2
 mono_aot_version:
